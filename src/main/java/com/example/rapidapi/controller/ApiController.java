@@ -22,7 +22,7 @@ public class ApiController {
         return rapidApiService.makeRapidApiRequest(query);
     }
 
-    @GetMapping("/{query}")
+    @GetMapping("/{welcome}")
     public String Welcome(){
         return "Wlcome";
     }
